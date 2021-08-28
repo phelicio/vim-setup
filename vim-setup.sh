@@ -4,7 +4,7 @@ sudo apt-get install vim git subversion
 
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \
 
-cp vimrc ~./vim
+cp vimrc ~/.vim
 
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
